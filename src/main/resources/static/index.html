@@ -35,6 +35,29 @@
         <li class="active"><a href="/womens.html">Womens</a></li>
         <li class="active"><a href="/cart.html">Cart</a></li>
         <li class="active"><a href="/pastorders.html">Past Orders</a></li>
+         <li class="dropdown" ng-show="home.authenticated"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="fa fa-list-alt"></i>Customer<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#headline">Add Applicant<span class="label label-success">NEW!</span></a></li>
+            <li><a href="#testimonials">Add Property</a></li>
+            <li><a href="#carousel">Add Employment</a></li>
+            <li><a href="#tabs">Add Education</a></li>
+            <li><a href="#features">Add Investment</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#thumbnails">Add Expenses</a></li>
+            <li><a href="#thumbnails">Submit Loan Application</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" ng-show="home.authenticated"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="fa fa-list-alt"></i> Admin <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#headline">Order Appraisal<span class="label label-success">NEW!</span></a></li>
+            <li><a href="#testimonials">Update Appraisal</a></li>
+            <li><a href="#carousel">View Pending Loans</a></li>
+            <li><a href="#tabs">View Approve Loans</a></li>
+            <li><a href="#tabs">Prepare Closing Docs</a></li>
+            <li><a href="#features">Order Post Closing</a></li>
+          </ul>
+        </li>
+        
       </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
